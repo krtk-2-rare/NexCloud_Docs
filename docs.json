@@ -26,7 +26,34 @@
           "icon": "book-open-cover"
         }
       ]
-    }
+    },
+    "anchors": [
+      {
+        "anchor": "Status Page",
+        "icon": "signal-stream",
+        "href": "https://nexcloud.instatus.com"
+      },
+      {
+        "anchor": "Billing Panel",
+        "icon": "credit-card",
+        "href": "https://cpdash.nexcloud.in"
+      },
+      {
+        "anchor": "PD Panel",
+        "icon": "server",
+        "href": "https://dash.nexcloud.in"
+      },
+      {
+        "anchor": "FR Panel",
+        "icon": "globe",
+        "href": "https://panel.nexcloud.in"
+      },
+      {
+        "anchor": "VPS Panel",
+        "icon": "microchip",
+        "href": "https://vpanel.nexcloud.in"
+      }
+    ]
   },
   "logo": {
     "light": "/logo/wordmark.svg",
@@ -35,24 +62,8 @@
   "navbar": {
     "links": [
       {
-        "href": "https://nexcloud.instatus.com",
-        "label": "Status"
-      },
-      {
-        "href": "https://cpdash.nexcloud.in",
-        "label": "Billing"
-      },
-      {
-        "href": "https://dash.nexcloud.in",
-        "label": "PD Panel"
-      },
-      {
-        "href": "https://panel.nexcloud.in",
-        "label": "FR Panel"
-      },
-      {
-        "href": "https://vpanel.nexcloud.in",
-        "label": "VPS Panel"
+        "href": "mailto:hi@mintlify.com",
+        "label": "Support"
       }
     ],
     "primary": {
