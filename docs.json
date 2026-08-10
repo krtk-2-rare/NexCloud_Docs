@@ -35,14 +35,30 @@
   "navbar": {
     "links": [
       {
-        "label": "Support",
-        "href": "mailto:hi@mintlify.com"
+        "href": "https://nexcloud.instatus.com",
+        "label": "Status"
+      },
+      {
+        "href": "https://cpdash.nexcloud.in",
+        "label": "Billing"
+      },
+      {
+        "href": "https://dash.nexcloud.in",
+        "label": "PD Panel"
+      },
+      {
+        "href": "https://panel.nexcloud.in",
+        "label": "FR Panel"
+      },
+      {
+        "href": "https://vpanel.nexcloud.in",
+        "label": "VPS Panel"
       }
     ],
     "primary": {
       "type": "button",
-      "label": "Dashboard",
-      "href": "https://app.mintlify.com"
+      "label": "Documentation",
+      "href": "/"
     }
   },
   "contextual": {
