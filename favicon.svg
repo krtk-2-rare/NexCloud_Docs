@@ -1,14 +1,9 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 160">
   <defs>
-    <linearGradient id="nGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#ffffff"/>
-      <stop offset="50%" stop-color="#d1d5db"/>
-      <stop offset="100%" stop-color="#9ca3af"/>
+    <linearGradient id="txtGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1f2937"/>
+      <stop offset="100%" stop-color="#000000"/>
     </linearGradient>
   </defs>
-  <circle cx="256" cy="256" r="256" fill="#000000"/>
-  <g fill="url(#nGrad)" transform="translate(140 150)">
-    <path d="M0 212 L40 212 L40 70 L145 212 L185 212 L185 0 L145 0 L145 142 L40 0 L0 0 Z"/>
-    <path d="M195 212 L235 212 L235 70 L340 212 L380 212 L380 0 L340 0 L340 142 L235 0 L195 0 Z" opacity="0.55"/>
-  </g>
+  <text x="256" y="115" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="120" font-weight="800" text-anchor="middle" fill="url(#txtGrad)" letter-spacing="-4">NexCloud</text>
 </svg>
