@@ -23,7 +23,20 @@
         {
           "anchor": "Documentation",
           "href": "https://docs.nexcloud.in",
-          "icon": "book-open-cover"
+          "icon": "book-open-cover",
+          "color": {
+            "light": "#000000",
+            "dark": "#000000"
+          }
+        },
+        {
+          "anchor": "Website",
+          "icon": "airplay",
+          "color": {
+            "light": "#ffffff",
+            "dark": "#ffffff"
+          },
+          "href": "https://nexcloud.in"
         }
       ]
     },
