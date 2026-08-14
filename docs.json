@@ -27,35 +27,10 @@
         }
       ]
     },
-    "anchors": [
-      {
-        "anchor": "Client Area",
-        "icon": "browser",
-        "href": "https://cpdash.nexcloud.in"
-      },
-      {
-        "anchor": "VPS Panel",
-        "icon": "square-terminal",
-        "href": "https://vpanel.nexcloud.in"
-      },
-      {
-        "anchor": "Untitled Anchor",
-        "groups": [
-          {
-            "group": "Untitled Group",
-            "pages": []
-          }
-        ]
-      },
-      {
-        "anchor": "Network Status",
-        "icon": "chart-simple",
-        "href": "https://nexcloud.instatus.com"
-      }
-    ]
+    "groups": []
   },
   "logo": {
-    "light": "/logo/wordmark.svg",
+    "light": "/images/Profile_Banner-removebg-preview.png",
     "dark": "/logo/wordmark.svg"
   },
   "navbar": {
