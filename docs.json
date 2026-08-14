@@ -137,5 +137,11 @@
       "light": "#000000",
       "dark": "#000000"
     }
+  },
+  "seo": {
+    "indexing": "all"
+  },
+  "interaction": {
+    "drilldown": true
   }
 }
