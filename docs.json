@@ -81,27 +81,13 @@
       {
         "group": "Services",
         "pages": [
-          "untitled-page"
+          "untitled-page",
+          "untitled-page-4"
         ]
       },
       {
         "group": "Guide",
-        "pages": [
-          {
-            "group": "Free Hosting",
-            "pages": [
-              "untitled-page-2"
-            ],
-            "expanded": true
-          },
-          {
-            "group": "Paid Hosting",
-            "pages": [
-              "untitled-page-3"
-            ],
-            "expanded": true
-          }
-        ]
+        "pages": []
       }
     ]
   },
