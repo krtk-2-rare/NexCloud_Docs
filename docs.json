@@ -77,8 +77,10 @@
         ]
       },
       {
-        "group": "Guide",
-        "pages": []
+        "group": "Free Hosting",
+        "pages": [
+          "freehost"
+        ]
       }
     ]
   },
