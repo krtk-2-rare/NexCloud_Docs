@@ -77,6 +77,12 @@
         "pages": [
           "index"
         ]
+      },
+      {
+        "group": "Services",
+        "pages": [
+          "untitled-page"
+        ]
       }
     ]
   },
