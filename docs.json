@@ -35,22 +35,38 @@
         {
           "anchor": "PD Panel",
           "icon": "codepen",
-          "href": "https://dash.nexcloud.in"
+          "href": "https://dash.nexcloud.in",
+          "color": {
+            "light": "#000000",
+            "dark": "#000000"
+          }
         },
         {
           "anchor": "FR Panel",
           "icon": "codepen",
-          "href": "https://panel.nexcloud.in"
+          "href": "https://panel.nexcloud.in",
+          "color": {
+            "light": "#000000",
+            "dark": "#000000"
+          }
         },
         {
           "anchor": "Client Area",
           "icon": "briefcase-blank",
-          "href": "https://cpdash.nexcloud.in"
+          "href": "https://cpdash.nexcloud.in",
+          "color": {
+            "light": "#000000",
+            "dark": "#000000"
+          }
         },
         {
           "anchor": "Status Page",
           "icon": "wifi",
-          "href": "https://nexcloud.instatus.com"
+          "href": "https://nexcloud.instatus.com",
+          "color": {
+            "light": "#000000",
+            "dark": "#000000"
+          }
         }
       ]
     },
