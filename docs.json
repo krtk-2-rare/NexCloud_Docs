@@ -86,7 +86,20 @@
       },
       {
         "group": "Guide",
-        "pages": []
+        "pages": [
+          {
+            "group": "Free Hosting",
+            "pages": [
+              "untitled-page-2"
+            ]
+          },
+          {
+            "group": "Paid Hosting",
+            "pages": [
+              "untitled-page-3"
+            ]
+          }
+        ]
       }
     ]
   },
