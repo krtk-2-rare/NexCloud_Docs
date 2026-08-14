@@ -24,15 +24,6 @@
     "global": {
       "anchors": [
         {
-          "anchor": "Documentation",
-          "href": "https://docs.nexcloud.in/introduction",
-          "icon": "book-open-cover",
-          "color": {
-            "light": "#000000",
-            "dark": "#000000"
-          }
-        },
-        {
           "anchor": "PD Panel",
           "icon": "codepen",
           "href": "https://dash.nexcloud.in",
