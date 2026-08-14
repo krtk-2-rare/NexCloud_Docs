@@ -111,5 +111,8 @@
   },
   "background": {
     "decoration": "grid"
+  },
+  "api": {
+    "url": "full"
   }
 }
