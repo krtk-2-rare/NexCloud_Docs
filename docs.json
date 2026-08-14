@@ -24,6 +24,15 @@
     "global": {
       "anchors": [
         {
+          "anchor": "Client Area",
+          "icon": "briefcase-blank",
+          "color": {
+            "light": "#000000",
+            "dark": "#000000"
+          },
+          "href": "https://cpdash.nexcloud.in"
+        },
+        {
           "anchor": "PD Panel",
           "icon": "codepen",
           "href": "https://dash.nexcloud.in",
@@ -36,15 +45,6 @@
           "anchor": "FR Panel",
           "icon": "codepen",
           "href": "https://panel.nexcloud.in",
-          "color": {
-            "light": "#000000",
-            "dark": "#000000"
-          }
-        },
-        {
-          "anchor": "Client Area",
-          "icon": "briefcase-blank",
-          "href": "https://cpdash.nexcloud.in",
           "color": {
             "light": "#000000",
             "dark": "#000000"
@@ -126,5 +126,12 @@
   },
   "api": {
     "url": "full"
+  },
+  "banner": {
+    "content": "hey",
+    "color": {
+      "light": "#000000",
+      "dark": "#000000"
+    }
   }
 }
