@@ -130,7 +130,7 @@
     "strict": true
   },
   "background": {
-    "decoration": "grid"
+    "decoration": "windows"
   },
   "api": {
     "url": "full"
