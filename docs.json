@@ -29,29 +29,19 @@
     },
     "anchors": [
       {
-        "anchor": "Status Page",
-        "icon": "signal-stream",
-        "href": "https://nexcloud.instatus.com"
-      },
-      {
-        "anchor": "Billing Panel",
-        "icon": "credit-card",
+        "anchor": "Client Area",
+        "icon": "browser",
         "href": "https://cpdash.nexcloud.in"
       },
       {
-        "anchor": "PD Panel",
-        "icon": "server",
-        "href": "https://dash.nexcloud.in"
-      },
-      {
-        "anchor": "FR Panel",
-        "icon": "globe",
-        "href": "https://panel.nexcloud.in"
-      },
-      {
         "anchor": "VPS Panel",
-        "icon": "microchip",
+        "icon": "square-terminal",
         "href": "https://vpanel.nexcloud.in"
+      },
+      {
+        "anchor": "Network Status",
+        "icon": "chart-simple",
+        "href": "https://nexcloud.instatus.com"
       }
     ]
   },
@@ -62,14 +52,14 @@
   "navbar": {
     "links": [
       {
-        "href": "mailto:hi@mintlify.com",
+        "href": "mailto:support@nexcloud.in",
         "label": "Support"
       }
     ],
     "primary": {
       "type": "button",
-      "label": "Documentation",
-      "href": "/"
+      "label": "Home",
+      "href": "https://nexcloud.in"
     }
   },
   "contextual": {
