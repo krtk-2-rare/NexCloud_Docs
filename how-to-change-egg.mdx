@@ -1,0 +1,77 @@
+---
+sidebarTitle: "How to Change Egg"
+title: "How to Change the Egg of a Server"
+icon: "aperture"
+---
+
+> Pterodactyl uses **Eggs** to define how a server runs an application. You can change the Egg of your server directly from the server settings.
+
+### Step 1 — Open Your Server
+
+Log in to your NexCloud Panel and open the server you want to modify.
+
+Open the **Server Panel**.
+
+### Step 2 — Stop Your Server
+
+Before changing the Egg, make sure your server is completely stopped.
+
+Open the **Console** and click **Stop**.
+
+### Step 3 — Open Server Settings
+
+Navigate to the **Setting** section of your Pterodactyl server panel.
+
+This is where you can manage the server's Egg and startup configuration.
+
+### Step 4 — Select a New Egg
+
+Find the **Egg** option and select the Egg you want to use.
+
+For example:
+
+- Node.js
+- Python
+- Java
+- Generic
+- Other available application Eggs
+
+Select the appropriate Egg for your application.
+
+### Step 5 — Review the Startup Configuration
+
+After selecting the new Egg, review the available startup variables.
+
+Some Eggs require additional configuration such as:
+
+- Startup command
+- Docker image
+- Application version
+- Environment variables
+- File name
+
+Make sure the values match your application.
+
+### Step 6 — Save the Changes
+
+Click **Save** or **Save Changes** to apply the new Egg configuration.
+
+### Step 7 — Start Your Server
+
+Return to the **Console** and start your server.
+
+Check the console output to make sure the application starts correctly.
+
+> **Important:** Changing an Egg can modify the server's startup configuration. Always make sure you have a backup of important files before making major configuration changes.
+
+## Troubleshooting
+
+If your server does not start after changing the Egg:
+
+1. Check the server console for errors.
+2. Verify the startup command.
+3. Check the required environment variables.
+4. Make sure the correct application version is selected.
+5. Restore your previous Egg if necessary.
+
+If you still need help, contact NexCloud Support.
