@@ -47,7 +47,8 @@
   },
   "logo": {
     "light": "/images/Profile_Banner-removebg-preview.png",
-    "dark": "/logo/wordmark.svg"
+    "dark": "/logo/wordmark.svg",
+    "href": "https://nexcloud.in"
   },
   "navbar": {
     "links": [
@@ -61,18 +62,6 @@
       "label": "Home",
       "href": "https://nexcloud.in"
     }
-  },
-  "contextual": {
-    "options": [
-      "copy",
-      "view",
-      "chatgpt",
-      "claude",
-      "perplexity",
-      "mcp",
-      "cursor",
-      "vscode"
-    ]
   },
   "footer": {
     "socials": {
