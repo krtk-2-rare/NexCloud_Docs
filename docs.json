@@ -39,6 +39,15 @@
         "href": "https://vpanel.nexcloud.in"
       },
       {
+        "anchor": "Untitled Anchor",
+        "groups": [
+          {
+            "group": "Untitled Group",
+            "pages": []
+          }
+        ]
+      },
+      {
         "anchor": "Network Status",
         "icon": "chart-simple",
         "href": "https://nexcloud.instatus.com"
