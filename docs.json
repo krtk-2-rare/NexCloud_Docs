@@ -83,6 +83,10 @@
         "pages": [
           "untitled-page"
         ]
+      },
+      {
+        "group": "Guide",
+        "pages": []
       }
     ]
   },
