@@ -43,7 +43,15 @@
         }
       ]
     },
-    "groups": []
+    "groups": [
+      {
+        "group": "Introduction",
+        "expanded": true,
+        "pages": [
+          "index"
+        ]
+      }
+    ]
   },
   "logo": {
     "light": "/images/2.png",
