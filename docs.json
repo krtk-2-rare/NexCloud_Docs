@@ -84,18 +84,18 @@
         ]
       },
       {
+        "group": "Free Hosting",
+        "pages": [
+          "freehost",
+          "how-to-keep-online"
+        ]
+      },
+      {
         "group": "Guide",
         "pages": [
           "how-to-enable-2fa",
           "how-to-change-egg",
           "how-to-secure-account"
-        ]
-      },
-      {
-        "group": "Free Hosting",
-        "pages": [
-          "freehost",
-          "how-to-keep-online"
         ]
       }
     ]
