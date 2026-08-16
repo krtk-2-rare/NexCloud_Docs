@@ -95,6 +95,7 @@
         "group": "Free Host",
         "pages": [
           "freehost",
+          "reset-password",
           "how-to-keep-online"
         ]
       },
