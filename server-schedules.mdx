@@ -1,0 +1,61 @@
+---
+title: "Server Schedules"
+---
+
+> Pterodactyl Schedules allow you to automate tasks on your server. You can configure actions to run automatically at a specific time or on a recurring schedule.
+
+### Creating a Schedule
+
+- Open your server in the NexCloud Panel and go to **Schedules**.
+
+- Click **Create schedule**.
+
+- Enter a name for your schedule, for example
+
+> `Daily Restart`
+
+- Then configure when the schedule should run.
+
+### Understanding the Schedule
+
+Pterodactyl schedules use a cron-based system to determine when tasks should run.
+
+The schedule is based on:
+
+- **Minute**
+- **Hour**
+- **Day of Month**
+- **Month**
+- **Day of Week**
+
+For example:
+
+`0 6 * * *`
+
+means the schedule will run **every day at 06:00**.
+
+## Adding Tasks
+
+After creating a schedule, add the actions that should be performed when the schedule runs.
+
+Depending on the server and permissions available, tasks can include actions such as:
+
+- **Send a Console Command**
+- **Create a Backup**
+- **Start Server**
+- **Restart Server**
+- **Stop Server**
+
+You can add multiple tasks to the same schedule.
+
+For example, a backup schedule could be configured to:
+
+1. Create a backup.
+2. Wait for the backup task to complete.
+3. Run another configured action.
+
+### Important
+
+Schedules use the server/panel's configured timezone. If a schedule does not run at the expected local time, check the timezone configured for your hosting environment.
+
+Scheduled tasks are executed automatically. Make sure commands and actions configured in a schedule are safe before enabling it.
