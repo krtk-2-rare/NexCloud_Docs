@@ -84,6 +84,12 @@
         ]
       },
       {
+        "group": "Paid Host",
+        "pages": [
+          "untitled-page"
+        ]
+      },
+      {
         "group": "Free Hosting",
         "pages": [
           "freehost",

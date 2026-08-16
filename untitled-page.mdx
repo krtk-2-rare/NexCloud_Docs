@@ -1,0 +1,87 @@
+---
+title: "Lavalink Control"
+icon: "atom"
+---
+
+> NexCloud Managed Lavalink servers are controlled through a dedicated web panel. Customers do **not** receive file manager, SFTP, console, or server-side file access.
+
+The control panel is the primary interface for managing your Lavalink service.
+
+### Opening the Panel
+
+Your Lavalink panel URL is provided in your server description by NexCloud staff.
+
+It normally follows this format
+
+```text
+http://IP:PORT/control
+```
+
+For example
+
+```text
+http://n4.nexcloud.in:3002/control
+```
+
+Open the URL in your browser to access the Lavalink Control Panel.
+
+### Dashboard
+
+After opening the panel, you will see the Lavalink dashboard.
+
+The dashboard provides basic information about your instance, including:
+
+- **Players** — Current connected players.
+- **Playing** — Players currently playing audio.
+- **Sources** — Available audio sources configured for your instance.
+- **Online Status** — Current availability of the Lavalink service.
+
+This information is provided for monitoring your Lavalink instance.
+
+### Changing Lavalink Password
+
+The control panel includes a password management option.
+
+- Open your Lavalink Control Panel.
+- Find **Change Lavalink Password**.
+- Enter your new password.
+- Confirm the password.
+- Click **Save Password**.
+- Update the password in your Discord bot's Lavalink configuration.
+
+After changing the password, existing applications using the previous password may no longer be able to connect.
+
+### Using Lavalink With Your Bot
+
+To connect your Discord bot to the managed Lavalink server, use the connection information provided by NexCloud.
+
+You will generally need:
+
+- **Host / IP**
+- **Port**
+- **Password**
+
+Enter these details in your bot's Lavalink configuration according to the Lavalink client/library you are using.
+
+The control panel itself is **not** used to connect your Discord bot. It is used to monitor and manage the Lavalink service.
+
+### What You Cannot Access
+
+Managed Lavalink customers do not have direct access to the underlying server.
+
+The following are **not available**:
+
+- Lavalink configuration files
+- Docker configuration
+- System-level settings
+- Server-side plugin/file management
+
+This is intentional because the Lavalink environment is managed by NexCloud.
+
+### Need a Configuration Change ?
+
+If you need something that cannot be changed from the control panel, contact NexCloud Support.
+
+NexCloud staff can review the request and make supported server-side changes where applicable.
+
+> **Important:** Do not attempt to access or modify the underlying Lavalink server. Managed Lavalink instances are maintained by NexCloud.
