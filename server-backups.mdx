@@ -1,0 +1,63 @@
+---
+title: "Server Backups"
+icon: "atom"
+---
+
+> NexCloud Paid Hosting provides a built-in backup system that allows you to create and manage backups of your server directly from the Pterodactyl panel.
+
+Backups are useful before major changes such as server migrations, plugin or mod installations, version changes, or configuration updates.
+
+### Creating a Backup
+
+- Open your server in the NexCloud Panel.
+- Go to **Backups**.
+- Click **Create backup**.
+- Enter a name for the backup.
+- Start the backup process.
+- Wait until the backup finishes processing.
+
+Once completed, the backup will appear in your **Backups** list.
+
+### Backup Information
+
+Each backup displays information such as:
+
+- **Name** — The name assigned to the backup.
+- **Size** — The total size of the backup.
+- **Creation Date** — When the backup was created.
+- **Checksum** — Used to verify the integrity of the backup.
+
+### When Should You Create a Backup ?
+
+It is recommended to create a backup before:
+
+- Changing your server version.
+- Installing major plugins or mods.
+- Changing server configuration.
+- Performing a server migration.
+- Making major file changes.
+- Reinstalling the server.
+
+### Restoring a Backup
+
+If your panel provides the restore option for a backup:
+
+1. Open **Backups**.
+2. Select the backup you want to restore.
+3. Choose **Restore**.
+4. Confirm the restoration.
+5. Wait for the process to complete.
+
+> **Important:** Restoring a backup may replace existing server data. Always make sure you have selected the correct backup before starting a restoration.
+
+### Backup Storage
+
+Backups are stored separately from your active server files. The amount of backup storage and the number of backups you can keep depends on your hosting plan and the limits configured for your service.
+
+### Backup Recommendations
+
+For important production servers, create backups regularly and keep multiple restore points when possible.
+
+Do not rely on a single backup for critical data.
+
+> **Note:** A backup is a recovery mechanism, not a replacement for good server management. NexCloud is not responsible for data that was never included in a successfully completed backup.

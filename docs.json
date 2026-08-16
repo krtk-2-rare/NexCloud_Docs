@@ -86,7 +86,8 @@
       {
         "group": "Paid Host",
         "pages": [
-          "lavalink-control"
+          "lavalink-control",
+          "server-backups"
         ]
       },
       {
