@@ -73,14 +73,14 @@
         "group": "Latest Offers",
         "expanded": true,
         "pages": [
-          "offer"
+          "monsoon-sale"
         ]
       },
       {
         "group": "Services",
         "pages": [
-          "services",
-          "free"
+          "our-services",
+          "free-hosting"
         ]
       },
       {
@@ -94,18 +94,18 @@
       {
         "group": "Free Host",
         "pages": [
-          "freehost",
+          "claim-free-host",
           "reset-password",
-          "how-to-keep-online"
+          "keep-server-online"
         ]
       },
       {
         "group": "Guide",
         "pages": [
           "account-breach",
-          "how-to-enable-2fa",
-          "how-to-change-egg",
-          "how-to-secure-account",
+          "enable-two-factor",
+          "change-the-egg-of-a-server",
+          "secure-account",
           "startup-configuration"
         ]
       }
