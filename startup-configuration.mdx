@@ -1,0 +1,137 @@
+---
+title: "Startup Configuration"
+icon: "aperture"
+---
+
+> The **Startup** section in Pterodactyl allows you to configure how your server starts and which files, packages, and arguments are used when launching your application.
+
+You can access it from your server's **Startup** tab.
+
+### Startup Command
+
+The **Startup Command** is the command Pterodactyl uses to launch your server.
+
+This is normally pre-configured by NexCloud based on the selected Egg and should only be changed if you know exactly what you are modifying.
+
+> **Important:** An incorrect startup command can prevent your server from starting.
+
+### Docker Image
+
+The **Docker Image** determines the runtime environment used by your server.
+
+For example, Node.js hosting may provide different Node.js versions such as:
+
+- Node.js 22
+- Node.js 24
+- Other versions available for your Egg
+
+Select the Docker Image that matches the requirements of your application.
+
+### Variables
+
+Depending on the selected Egg, you may see different startup variables.
+
+### Git Repo Address
+
+Used when you want the server to download your application from a Git repository.
+
+Example:
+
+```text
+https://github.com/example/project
+```
+
+Leave this empty if you are uploading your files manually.
+
+### Install Branch
+
+Specifies which Git branch should be installed.
+
+For example:
+
+```text
+main
+```
+
+This is normally used together with **Git Repo Address**.
+
+### User Uploaded Files
+
+Controls whether the installation process should skip the normal installation process because you are uploading the application files yourself.
+
+Enable this when your application is already uploaded and does not require the Egg's installation process.
+
+### Auto Update
+
+When enabled with a Git repository, the server can pull the latest files from the configured repository during startup.
+
+Only enable this if you understand how your repository deployment works.
+
+### Additional Node Packages
+
+Allows you to install additional Node.js packages required by your application.
+
+Multiple packages can be entered separated by spaces.
+
+Example:
+
+```text
+axios express dotenv
+```
+
+### Git Username
+
+Used when authentication is required for a Git repository.
+
+For public repositories, this is generally not required.
+
+### Git Access Token
+
+Used to authenticate with a private Git repository.
+
+**Never share your Git access token publicly.**
+
+### Uninstall Node Packages
+
+Packages listed here can be removed during the installation process.
+
+This is generally only required for specific application setups.
+
+### Main File
+
+The **Main File** is the file used to start your application.
+
+For example:
+
+```text
+src/server.js
+```
+
+Depending on your application, this could also be:
+
+- `index.js`
+
+- `app.js`
+
+Make sure the file exists in your server's directory.
+
+### Additional Arguments
+
+Additional arguments can be passed to the Node.js runtime or the startup command.
+
+Only use this field when your application specifically requires additional arguments.
+
+### Changing Startup Settings
+
+Before changing any startup variable:
+
+1. Stop your server.
+2. Open **Startup**.
+3. Change the required setting.
+4. Save the configuration.
+5. Start your server.
+6. Check the console for errors.
+
+If the server fails to start after changing the Startup configuration, revert the change or contact NexCloud Support.
+
+> **Tip:** Do not change the Startup Command unless required. Most applications only need the correct **Docker Image**, **Main File**, and required **Environment Variables**.
