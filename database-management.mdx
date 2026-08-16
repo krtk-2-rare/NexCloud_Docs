@@ -1,0 +1,64 @@
+---
+title: "Database Management"
+icon: "atom"
+---
+
+> NexCloud Paid Hostingprovides database management directly through the Pterodactyl panel. Databases can be created and managed without requiring direct access to the database server.
+
+### Creating a Database
+
+- Open your server in the NexCloud Panel.
+- Go to **Databases**.
+- Click **Create Database**.
+- Select the available database host.
+- Enter a database name.
+- Create the database.
+- Wait for the database to finish provisioning.
+
+Once created, the database credentials will be displayed in the panel.
+
+### Database Credentials
+
+Depending on your application, you may need:
+
+- **Database Host**
+- **Database Port**
+- **Database Name**
+- **Database Username**
+- **Database Password**
+
+Use these credentials in your server's configuration file or environment variables.
+
+### Connecting Your Server
+
+For applications such as Minecraft plugins, websites, or bots, enter the database information in the application's configuration.
+
+Make sure the application uses the database host and port provided by NexCloud rather than assuming `localhost`.
+
+### Managing Databases
+
+From the **Databases** section, you can manage the databases assigned to your server.
+
+Available options depend on the permissions and database configuration of your hosting plan.
+
+### Database Security
+
+Keep your database credentials private.
+
+Never publish database passwords in:
+
+- GitHub repositories
+- Public Discord messages
+- Screenshots
+- Public configuration files
+- Support tickets
+
+If your database credentials are exposed, contact NexCloud Support for assistance.
+
+### Deleting a Database
+
+Before deleting a database, make sure you have a backup of any important data.
+
+Deleting a database can permanently remove its stored information and may not be reversible.
+
+> **Important:** NexCloud provides database infrastructure for your server, but you are responsible for maintaining backups of important application data and ensuring your database is used securely.
