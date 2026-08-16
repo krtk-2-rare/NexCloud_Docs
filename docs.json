@@ -93,10 +93,10 @@
       {
         "group": "Guide",
         "pages": [
+          "account-breach",
           "how-to-enable-2fa",
           "how-to-change-egg",
-          "how-to-secure-account",
-          "What-to-do-if-compromised"
+          "how-to-secure-account"
         ]
       }
     ]
