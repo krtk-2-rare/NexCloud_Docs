@@ -88,7 +88,7 @@
         "pages": [
           "lavalink-control",
           "server-backups",
-          "database-management"
+          "manage-database"
         ]
       },
       {
