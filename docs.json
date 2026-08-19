@@ -98,7 +98,8 @@
         "pages": [
           "claim-free-host",
           "reset-password",
-          "keep-server-online"
+          "keep-server-online",
+          "untitled-page"
         ]
       },
       {
