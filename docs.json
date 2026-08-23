@@ -147,13 +147,6 @@
   "api": {
     "url": "full"
   },
-  "banner": {
-    "content": "Monsoon Sale 2026 is now Live. Use MONSOON26 Now to get Flat 15% Off on Premium Hosting Plans.",
-    "color": {
-      "light": "#000000",
-      "dark": "#000000"
-    }
-  },
   "seo": {
     "indexing": "all"
   },
