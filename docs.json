@@ -43,7 +43,8 @@
         },
         {
           "anchor": "GP Panel",
-          "href": "https://gpanel.nexcloud.in"
+          "href": "https://gpanel.nexcloud.in",
+          "icon": "bags-shopping"
         },
         {
           "anchor": "FR Panel",
